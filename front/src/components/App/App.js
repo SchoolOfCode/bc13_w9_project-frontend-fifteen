@@ -9,12 +9,12 @@ import Footer from '../Footer';
 function App() {
   return (
     <div id='body'>
-   <div className='main'>
-      <Header />
-     <Input />
-     <ResultsData /> 
-     <Footer /> 
-   </div>
+      <div className='main'>
+        <Header />
+        <Input />
+        <ResultsData /> 
+        <Footer /> 
+      </div>
    </div>
   );
 }
