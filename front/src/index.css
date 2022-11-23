@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.main {
+  background-color: black;
+}
+
 .header {
   margin: auto;
   width: 100%;
@@ -83,7 +87,7 @@ Input {
   border-radius: 30px;
   cursor: pointer;
   margin-top: 1rem;
-  height: 50px;
+  height: 150px;
   width: 60%;
 }
 
@@ -97,9 +101,15 @@ Input {
   cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+Footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 425px) {
   .header {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
   .inputContainer {
     flex-direction: column;
@@ -113,6 +123,60 @@ Input {
     width: 80%;
     border-radius: 10px;
     height: 140px;
+    font-size: 18px;
+    height: 40px;
+  }
+  .searchDataArea {
+    margin-top: 4em;
+    text-align: center;
+    width: 100%;
+  }
+  .searchDataArea input {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 18px;
+  }
+  .searchDataArea #searchButton {
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  #addCodeSnippets {
+    height: 120px;
+    width: 80%;
+    font-size: 18px;
+  }
+  #buttonAddItem {
+    font-size: 16px;
+  }
+  .cardContainer {
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    font-size: 1em;
+  }
+  .inputContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputContainer .inputData {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputContainer .inputField {
+    width: 80%;
+    border-radius: 10px;
+    height: 100px;
     font-size: 16px;
     height: 40px;
   }
@@ -138,7 +202,7 @@ Input {
     cursor: pointer;
   }
   #addCodeSnippets {
-    height: 40px;
+    height: 100px;
   }
   #buttonAddItem {
     font-size: 16px;

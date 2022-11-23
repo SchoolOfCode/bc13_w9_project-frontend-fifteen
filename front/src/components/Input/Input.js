@@ -1,5 +1,5 @@
 
-import { useState } from "react"
+
 import React from 'react'
 
 
@@ -26,18 +26,15 @@ const randomData = [
 ]
 
 export default function Input() {
-  // const [file, setFile] = useState("")
-
-
-return (
-<div className="inputContainer">
-  <div className="inputData">
-    <input id= "addTitle" className="inputField" type="text" placeholder="Add title"></input>
-    <input id= "addDescription" className="inputField" type="text" placeholder="Add description"></input>
-  </div>
-  <input id= "addCodeSnippets" type="textField" placeholder="Add code snippet"></input>
-  <button id="buttonAddItem" >Add</button>
-</div >
-)
+  return (
+    <div className="inputContainer">
+      <div className="inputData">
+        <input id= "addTitle" className="inputField" type="text" placeholder="Add title"></input>
+        <input id= "addDescription" className="inputField" type="text" placeholder="Add description"></input>
+      </div>
+      <textarea id="addCodeSnippets" rows='10' cols='40'></textarea>
+      <button id="buttonAddItem" >Add</button>
+    </div >
+  )
 }
 

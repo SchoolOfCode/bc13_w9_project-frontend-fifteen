@@ -1,7 +1,7 @@
 function Header(){
   return(
     <div className='header'>
-      <h1>Im a Header</h1>
+      <h1>Code Snippets App</h1>
     </div>
   )
 }

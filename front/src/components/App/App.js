@@ -3,7 +3,7 @@
 import Input from '../Input/Input';
 import ResultsData from '../ResultsData/ResultsData';
 import Header from '../Header';
-
+import Footer from '../Footer';
 
 
 function App() {
@@ -12,7 +12,8 @@ function App() {
    <div className='main'>
       <Header />
      <Input />
-     <ResultsData />  
+     <ResultsData /> 
+     <Footer /> 
    </div>
    </div>
   );
