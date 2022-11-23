@@ -74,7 +74,7 @@ Input {
   background-color: indigo;
   font-size: 20px;
   color: #fff;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   margin-top: 1rem;
 }
 
@@ -87,7 +87,7 @@ Input {
   background-color: indigo;
   font-size: 20px;
   color: #fff;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   margin-top: 1rem;
 }
 
@@ -100,7 +100,7 @@ Input {
   background-color: indigo;
   font-size: 20px;
   color: #fff;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   margin-top: 2rem;
   margin-bottom: 2rem;
   height: 150px;
@@ -115,7 +115,7 @@ Input {
   cursor: pointer;
   border: 3px solid blueviolet;
   background-color: indigo;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   font-size: 20px;
   color: gray;
   width: 20%;
@@ -140,7 +140,7 @@ Input {
   font-size: 20px;
   border: 3px solid blueviolet;
   background-color: indigo;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   font-size: 20px;
   color: gray;
 }
@@ -153,7 +153,7 @@ Input {
   border-radius: 30px;
   border: 3px solid blueviolet;
   background-color: indigo;
-  box-shadow: 1px 1px 10px 1px #f70303;
+  box-shadow: 1px 1px 10px 2px #1a21e4;
   font-size: 20px;
   color: gray;
 }
