@@ -26,20 +26,18 @@ const randomData = [
 ]
 
 export default function Input() {
-  const [file, setFile] = useState("")
+  // const [file, setFile] = useState("")
 
 
-
-
-
-  
 return (
-<>
-<input id= "input" type="text" placeholder="Add title"></input>
-<input id= "input" type="text" placeholder="Add description"></input>
-<input id= "input" type="text" placeholder="Add code snippet"></input>
-<button id="button" >Add</button>
-</>
+<div className="inputContainer">
+  <div className="inputData">
+    <input id= "addTitle" className="inputField" type="text" placeholder="Add title"></input>
+    <input id= "addDescription" className="inputField" type="text" placeholder="Add description"></input>
+  </div>
+  <input id= "addCodeSnippets" type="textField" placeholder="Add code snippet"></input>
+  <button id="buttonAddItem" >Add</button>
+</div >
 )
 }
 

@@ -7,14 +7,145 @@
 .header {
   margin: auto;
   width: 100%;
-  height: 3em;
+  height: 2em;
   text-align: center;
   margin-top: 2em;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 4s linear infinite;
+          animation: textclip 4s linear infinite;
+  display: inline-block;
+  font-size: 2em;
 }
 
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 Input {
-  width: 70%;
+  width: 50%;
   margin: auto;
   text-align: center;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputContainer .inputData {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.inputContainer .inputField {
+  width: 35%;
+  height: 50px;
+}
+
+#addTitle {
+  padding: 15px;
+  letter-spacing: 4px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#addDescription {
+  padding: 15px;
+  letter-spacing: 4px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#addCodeSnippets {
+  padding: 15px;
+  letter-spacing: 4px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1rem;
+  height: 50px;
+  width: 60%;
+}
+
+#buttonAddItem {
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    font-size: 1.3em;
+  }
+  .inputContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputContainer .inputData {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputContainer .inputField {
+    width: 80%;
+    border-radius: 10px;
+    height: 140px;
+    font-size: 16px;
+    height: 40px;
+  }
+  .searchDataArea {
+    margin-top: 4em;
+    text-align: center;
+    width: 100%;
+  }
+  .searchDataArea input {
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 16px;
+  }
+  .searchDataArea #searchButton {
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 1rem;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  #addCodeSnippets {
+    height: 40px;
+  }
+  #buttonAddItem {
+    font-size: 16px;
+  }
+  .cardContainer {
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+  }
 }/*# sourceMappingURL=index.css.map */
